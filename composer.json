@@ -1,0 +1,20 @@
+{
+    "name": "cheng/yii2-wx",
+    "description": "基于yii2扩展微信公众号和小程序相关接口服务",
+    "type": "yii2-extension",
+    "version": "1.0",
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-httpclient": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "chengxiansheng",
+        "email": "chengdonglanji@163.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "wx\\": "src"
+        }
+    }
+}

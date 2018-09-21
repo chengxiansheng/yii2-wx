@@ -1,0 +1,23 @@
+<?php
+return [
+    'base.accessToken'             => 'wx\base\AccessToken',
+    'common.template'              => 'wx\common\template\Template',
+    'common.customerMsg.tempMedia' => 'wx\common\customerMsg\TempMedia',
+    'common.customerMsg.send'      => 'wx\common\customerMsg\Send',
+    'mini.user'                    => 'wx\mini\user\User',
+    'mini.qrcodeA'                 => 'wx\mini\qrcode\QrcodeFromA',
+    'mini.qrcodeB'                 => 'wx\mini\qrcode\QrcodeFromB',
+    'mini.qrcodeC'                 => 'wx\mini\qrcode\QrcodeFromC',
+    'mini.template'                => 'wx\mini\template\Template',
+    'mini.checkImage'              => 'wx\mini\check\Image',
+    'mini.checkMsg'                => 'wx\mini\check\Msg',
+    'mp.menu'                      => 'wx\mp\menu\Menu',
+    'mp.personaliseMenu'           => 'wx\mp\menu\Personalise',
+    'mp.user.tag'                  => 'wx\mp\user\Tag',
+    'mp.user'                      => 'wx\mp\user\User',
+    'mp.blackUser'                 => 'wx\mp\user\BlackUser',
+    'mp.qrcode'                    => 'wx\mp\qrcode\Qrcode',
+    'mp.shortUrl'                  => 'wx\mp\qrcode\ShortUrl',
+    'mp.template'                  => 'wx\mp\template\Template',
+    'mp.oauth'                     => 'wx\mp\oauth\OAuth',
+];
