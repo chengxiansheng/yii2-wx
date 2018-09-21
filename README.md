@@ -1,6 +1,11 @@
 # yii2-wx
 基于yii2扩展微信公众号和小程序相关接口服务
 
+# composer 安装
+```
+composer require "cheng/yii2-wx" "*"
+```
+
 # 应用结构
 ```
 wx/
